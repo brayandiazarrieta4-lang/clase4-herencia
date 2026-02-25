@@ -1,9 +1,9 @@
 package com.example;
 
-public class Camiondereparto extends Transporte {
+public class CamionDEREparto extends Transporte {
     private boolean tieneRefrigeracion;
 
-    public Camiondereparto(String idTransporte, double combustible, double capacidadCarga, boolean tieneRefrigeracion) {
+    public CamionDEREparto(String idTransporte, double combustible, double capacidadCarga, boolean tieneRefrigeracion) {
         super(idTransporte, combustible, capacidadCarga);
         this.tieneRefrigeracion = tieneRefrigeracion;
     }

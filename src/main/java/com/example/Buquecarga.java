@@ -1,9 +1,9 @@
 package com.example;
 
-public class Buquecarga extends Transporte {
+public class BuqueCarga extends Transporte {
     private int cantidadContenedores;
 
-    public Buquecarga(String idTransporte, double combustible, double capacidadCarga, int cantidadContenedores) {
+    public BuqueCarga(String idTransporte, double combustible, double capacidadCarga, int cantidadContenedores) {
         super(idTransporte, combustible, capacidadCarga);
         this.cantidadContenedores = cantidadContenedores;
     }
