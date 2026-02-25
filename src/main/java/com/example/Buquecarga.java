@@ -13,7 +13,7 @@ public class BuqueCarga extends Transporte {
     }
 
     public void mostrarDatos() {
-        double costoViaje = cantidadContenedores * 150.0; // Ejemplo de cálculo de costo
+        double costoViaje = cantidadContenedores * 160.0; // Ejemplo de cálculo de costo
         System.out.println("ID: " + getIdTransporte() + " | Contenedores: " + cantidadContenedores);
         System.out.println("Costo de Viaje: " + costoViaje + " USD");
     }
